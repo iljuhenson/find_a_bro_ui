@@ -102,6 +102,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_dotenv:
+    dependency: "direct main"
+    description:
+      name: flutter_dotenv
+      sha256: "9357883bdd153ab78cbf9ffa07656e336b8bbb2b5a3ca596b0b27e119f7c7d77"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.0"
   flutter_hooks:
     dependency: transitive
     description:
@@ -328,6 +336,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.8.2+1"
+  open_route_service:
+    dependency: "direct main"
+    description:
+      name: open_route_service
+      sha256: "3dde494fa6e7f7a6421e256cc11f54243bf43b505de17b27b5862269053b5f5e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.3"
   path:
     dependency: transitive
     description:

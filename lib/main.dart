@@ -1,9 +1,11 @@
 import 'package:find_a_bro/screens/find_people_screen.dart';
 import 'package:find_a_bro/widgets/custom_bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+Future<void> main() async {
+  await dotenv.load(fileName: 'assets/.env');
   runApp(
     ChangeNotifierProvider(
       create: (context) => TabManagementState(),
